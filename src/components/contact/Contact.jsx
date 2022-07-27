@@ -7,6 +7,15 @@ import emailjs from '@emailjs/browser';
 import { useState } from 'react'
 import { ThemeContext } from '../../context'
 
+
+
+
+ 
+
+
+
+
+
 const Contact = () => {
 
         const formRef = useRef()
@@ -14,6 +23,9 @@ const Contact = () => {
 
         const theme = useContext(ThemeContext)
         const darkMode = theme.state.darkMode;
+
+
+     
 
 
         const handleSubmit = (e) =>{
@@ -42,17 +54,17 @@ const Contact = () => {
 
                     <div className="c-info-item">
                         <img src={Phone} alt="" className="c-icon" />
-                        +1 1234 556 75
+                        +1 226 978 7667
                     </div>
 
                     <div className="c-info-item">
                         <img src={Email} alt="" className="c-icon" />
-                        contact@sohail.mir
+                        mohdsohailmir@gmail.com
                     </div>
 
                     <div className="c-info-item">
                         <img src={Address} alt="" className="c-icon" />
-                        35 columbia street, tour de waterloo 8750 Canada
+                         8-35 columbia street, Waterloo, N2L3K4
                     </div>
 
 
@@ -76,7 +88,7 @@ const Contact = () => {
               <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
               <textarea  rows="5" placeholder="Message" name="message"/>
               <button className="glow-on-hover">Submit</button>
-             {done && "Thankyou...  "}
+             {done && "Thankyou"}
           </form>
 
 
@@ -89,3 +101,4 @@ const Contact = () => {
 }
 
 export default Contact
+

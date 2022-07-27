@@ -9,6 +9,7 @@ import { ThemeContext } from "./context";
 
 
 
+
 const App = () => {
 
  // if we dont want to use context api insted use --> const[dark,setDark] = useState(false)

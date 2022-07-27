@@ -14,22 +14,20 @@ const About = () => {
             <div className="a-right">
             <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          I design & build digital products....
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          Hii,
+I am a graduate from Conestoga college of Applied Computer Science & Information Technology,
+ I am a web developer and tech enthusiast seeking to learn more and more each day. I have experience in web developing and designing,
+  Android application development, graphic designing and animation/illustration on multiple tools.
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <h4 className="a-award-title">Best cusomer service award 2021</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+              I have been awarded and rewarded for best in class customer service satisfaction
             </p>
           </div>
         </div>
